@@ -1,0 +1,152 @@
+[
+  {
+    "id": "ancient",
+    "title": "Ancient Civilisations",
+    "summary": "Explore how early societies organised themselves, traded, and built enduring legacies.",
+    "enabled": true,
+    "events": [
+      {
+        "id": "giza",
+        "title": "Building the Great Pyramid of Giza",
+        "years": "c. 2580–2560 BCE",
+        "region": "Egypt",
+        "summary": "Skilled labourers organised massive stone blocks to create a royal tomb that signalled the power of the Old Kingdom.",
+        "keyTerms": ["pharaoh", "quarry", "Old Kingdom"],
+        "knownFacts": [
+          "The pyramid was built for Pharaoh Khufu during Egypt's Fourth Dynasty.",
+          "Workers used sleds, ramps, and levers to move limestone blocks.",
+          "Skilled workers lived in planned villages near the site, not enslaved masses."
+        ],
+        "sceneDefaults": {
+          "location": "Nile-side construction site",
+          "year": "2560 BCE",
+          "people": "team of Egyptian builders and overseers",
+          "objects": "limestone blocks, wooden sleds, ramps",
+          "mood": "busy but orderly",
+          "style": "watercolour"
+        }
+      },
+      {
+        "id": "agora",
+        "title": "Athens Democratic Assembly",
+        "years": "c. 450 BCE",
+        "region": "Greece",
+        "summary": "Citizens gathered to debate and vote on laws that shaped classical Athens.",
+        "keyTerms": ["assembly", "polis", "citizen"],
+        "knownFacts": [
+          "Only free male citizens could vote; women, enslaved people, and foreigners were excluded.",
+          "Meetings occurred on the Pnyx hill with speakers addressing the crowd.",
+          "Voting often used raised hands or broken pottery shards (ostraka)."
+        ],
+        "sceneDefaults": {
+          "location": "Pnyx hill overlooking Athens",
+          "year": "450 BCE",
+          "people": "male citizens in tunics",
+          "objects": "stone podium, ostraka, olive trees",
+          "mood": "lively debate",
+          "style": "woodcut"
+        }
+      }
+    ]
+  },
+  {
+    "id": "industrial",
+    "title": "Industrial Revolution",
+    "summary": "Mechanisation reshaped work, cities, and global trade in the eighteenth and nineteenth centuries.",
+    "enabled": true,
+    "events": [
+      {
+        "id": "mill",
+        "title": "Cotton Mill Workday",
+        "years": "1780s",
+        "region": "Britain",
+        "summary": "Water- and steam-powered machines increased textile output but created harsh factory conditions.",
+        "keyTerms": ["factory", "steam engine", "textile"],
+        "knownFacts": [
+          "Early mills employed entire families, including children, for long shifts.",
+          "Arkwright and others used water frames and spinning mules to automate spinning.",
+          "Factory towns grew rapidly around rivers and canals."
+        ],
+        "sceneDefaults": {
+          "location": "brick textile mill interior",
+          "year": "1785",
+          "people": "mill workers and an overseer",
+          "objects": "spinning mules, looms, coal furnace",
+          "mood": "noisy and focused",
+          "style": "comic"
+        }
+      },
+      {
+        "id": "rail",
+        "title": "Early Steam Railway",
+        "years": "1820s–1830s",
+        "region": "Britain",
+        "summary": "Steam locomotives linked coalfields and cities, speeding goods and people across new rail lines.",
+        "keyTerms": ["locomotive", "infrastructure", "coal"],
+        "knownFacts": [
+          "Stephenson's Rocket popularised the use of multi-tube boilers for speed.",
+          "Railways required tunnels, bridges, and stations built by navvies.",
+          "Coal smoke and cinders affected passengers and nearby towns."
+        ],
+        "sceneDefaults": {
+          "location": "rural rail line with early station",
+          "year": "1830",
+          "people": "engine driver, passengers in carriages",
+          "objects": "steam locomotive, coal tender, semaphore signal",
+          "mood": "optimistic and loud",
+          "style": "photorealistic"
+        }
+      }
+    ]
+  },
+  {
+    "id": "coldwar",
+    "title": "Cold War & Decolonisation",
+    "summary": "Nations navigated ideological rivalry and independence movements after World War II.",
+    "enabled": true,
+    "events": [
+      {
+        "id": "berlinairlift",
+        "title": "Berlin Airlift",
+        "years": "1948–1949",
+        "region": "Germany",
+        "summary": "Western Allies flew supplies into West Berlin after the Soviet blockade of land routes.",
+        "keyTerms": ["blockade", "air corridor", "Allies"],
+        "knownFacts": [
+          "Allied planes landed every few minutes with coal, food, and medicine.",
+          "Children waited for candy parachutes dropped by pilots.",
+          "The operation demonstrated commitment to West Berlin without direct conflict."
+        ],
+        "sceneDefaults": {
+          "location": "Tempelhof Airport runway",
+          "year": "1949",
+          "people": "pilots, Berlin families, ground crew",
+          "objects": "cargo planes, parachutes, supply crates",
+          "mood": "hopeful under tension",
+          "style": "watercolour"
+        }
+      },
+      {
+        "id": "independence",
+        "title": "Decolonisation Rally",
+        "years": "1950s–1960s",
+        "region": "Global South",
+        "summary": "Citizens organised peaceful rallies and negotiations to demand independence and self-rule.",
+        "keyTerms": ["self-determination", "non-violence", "sovereignty"],
+        "knownFacts": [
+          "Student groups, unions, and community leaders often coordinated demonstrations.",
+          "Symbolic flags, banners, and songs expressed national identity.",
+          "Protests were often met with censorship or arrests, but many remained peaceful."
+        ],
+        "sceneDefaults": {
+          "location": "city square near colonial-era buildings",
+          "year": "1955",
+          "people": "peaceful marchers, student leaders, journalists",
+          "objects": "microphones, banners, handheld radios",
+          "mood": "determined and hopeful",
+          "style": "poster"
+        }
+      }
+    ]
+  }
+]
